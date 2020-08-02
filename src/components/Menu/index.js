@@ -11,7 +11,7 @@ export const Menu = () => {
 				<img className="Logo" src={Logo} alt="FelipeFlix logo" />
 			</a>
 			<Button as="a" className="ButtonLink" href="/">
-				Novo vídeo 2
+				Novo vídeo
 			</Button>
 		</nav>
 	)
