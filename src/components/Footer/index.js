@@ -1,11 +1,12 @@
 import React from 'react';
-import { FooterBase } from './styles';
+import logo from '../../assets/img/logo.png';
+import { FooterBase, Logo } from './styles';
 
-function Footer() {
+export default function Footer() {
   return (
     <FooterBase>
       <a href="https://www.alura.com.br/">
-        <img src="https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg" alt="Logo Alura" />
+        <Logo src={logo} alt="Logo FelipeFlix" />
       </a>
       <p>
         Orgulhosamente criado durante a
@@ -17,5 +18,3 @@ function Footer() {
     </FooterBase>
   );
 }
-
-export default Footer;
